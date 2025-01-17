@@ -1,0 +1,25 @@
+.box-grid{
+    padding: 10;
+    /*
+    margin: 10px;
+    */
+    background-color:aquamarine;
+    /*flex: auto;*/
+    /*width: 20px;*/
+    /*flex-basis: 1px;*/
+    /*flex: 0 0 28px;*/
+    /*border: 1px solid red;*/
+}
+
+.box-grid:hover {
+    background-color: rgba(110, 194, 166, 0.822);
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+    width: 700px;
+    height: 700px;
+}
