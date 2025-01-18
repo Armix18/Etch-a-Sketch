@@ -37,10 +37,7 @@ function drawGrid(squares, squaresDouble){
         let classOpacity = 0;
         box.style.opacity = 0;
 
-
-        //let j = 0;
             box.addEventListener('mouseenter',(e) => {
-                //box.style.backgroundColor = 'rgba(110, 194, 166, 0.822)';
                 if(classOpacity < 1) {
                 classOpacity = classOpacity+0.1;
                 box.style.opacity = classOpacity;
@@ -48,7 +45,6 @@ function drawGrid(squares, squaresDouble){
 
                 }
             });
-            //j++;
         
     }
 }
