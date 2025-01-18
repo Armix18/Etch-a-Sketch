@@ -1,25 +1,32 @@
-.box-grid{
-    padding: 10;
-    /*
-    margin: 10px;
-    */
-    background-color:aquamarine;
-    /*flex: auto;*/
-    /*width: 20px;*/
-    /*flex-basis: 1px;*/
-    /*flex: 0 0 28px;*/
-    /*border: 1px solid red;*/
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.box-grid:hover {
-    background-color: rgba(110, 194, 166, 0.822);
+.box-grid{
+    padding: 10;
+    background-color:rgb(27, 51, 43);
 }
 
 .content{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 3px;
+    gap: 2px;
     width: 700px;
     height: 700px;
+    border: 1px solid black;
+}
+
+#popup {
+    margin: 20px auto;
+    padding: 10px;
+    background-color:rgb(185, 194, 132);
+    font-size: 18px;
+}
+
+#popup:hover {
+    background-color:rgba(129, 165, 81, 0.733);
+    transition: 3px;
 }
